@@ -2,5 +2,4 @@ language: java
 install: true
 script:
 - mvn install
-after_success:
-- bash <(curl -s https://scripts.scantist.com/ci-travis.sh)
+
